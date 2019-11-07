@@ -2,7 +2,7 @@
 
 My aim is to classify maximum protein types in the Structural Protein Sequences dataset using multiple machine learning classification algorithms. The dataset is from [Kaggle](https://www.kaggle.com/shahir/protein-data-set).
 
-## Preprocessing
+## Data Preprocessing
   - Format the classification names 
   Remove the outliers for phValue and Molecular Weight. However, there are some high values in Molecular Weight which I think "Molecular weight is calculated using sequence using the weight of each amino acid. Thus, if a sequence is long, then it can have a large weight" 
   - Remove crystallizationMethod, crystallizationTempK, publicationYear and pdbxDetails. crystallizationMethod and crystallizationTempK have 22% missing values
@@ -16,7 +16,7 @@ My aim is to classify maximum protein types in the Structural Protein Sequences 
 
 Working on this part...
 
-## Clasification
+## Classification
  
 - [x] Used RandomForest algorithm so far and it gives me 87% accuracy rate with a single random train-test split and 88% with cross-validation
 - [ ] Working on other classification algorithms. I will add it soon...
