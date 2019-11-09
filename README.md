@@ -4,7 +4,7 @@ My aim is to classify maximum protein types in the Structural Protein Sequences 
 
 ## Data Preprocessing
   - Format the classification names 
-  Remove the outliers for phValue and Molecular Weight. However, there are some high values in Molecular Weight which I think "Molecular weight is calculated using sequence using the weight of each amino acid. Thus, if a sequence is long, then it can have a large weight" 
+  - Remove the outliers for phValue and Molecular Weight. However, there are some high values in Molecular Weight which I think "Molecular weight is calculated using sequence using the weight of each amino acid. Thus, if a sequence is long, then it can have a large weight" 
   - Remove crystallizationMethod, crystallizationTempK, publicationYear and pdbxDetails. crystallizationMethod and crystallizationTempK have 22% missing values
   - Drop some rows based on : densityMatthews, densityPercentSol, resolution, and sequence
   - Replace phValue nan value with an average value of that particular class and Remove all classes if all phValues are null
