@@ -12,11 +12,18 @@ My aim is to classify maximum protein types in the Structural Protein Sequences 
   - Added class variable as a target value. Assign a unique class number to each protein class
 
 
-## Exploratory Data Analysis
+## Data Analysis
 
-Working on this part...
+I compared few models with cross validation and hyperparameter tuning with Grid Search and Randomized Search. Following models were compared:
+- Random Forest
+- Decision Tree
+- Gradient Boosting
+- Gaussian Naive Bayes
+- Multinomial Naive Bayes
+- Support Vector Machine(SVM)
+- K Nearest Neighbors(KNN)
 
-## Classification
- 
-- [x] Used RandomForest algorithm so far and it gives me 87% accuracy rate with a single random train-test split and 88% with cross-validation
-- [ ] Working on other classification algorithms. I will add it soon...
+Random Forest is the best among all above models. KNN also works well whereas all other models give very poor performance. 
+
+#### Future Work
+ - Will build deep learning models
