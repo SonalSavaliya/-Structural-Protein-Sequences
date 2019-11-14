@@ -26,4 +26,4 @@ I compared a few models with cross-validation and hyperparameter tuning with Gri
 Random Forest is the best among all above models. KNN also works well whereas all other models give very poor performance. 
 
 #### Future Work
- - Will build deep learning models
+ - Will work on some deep learning models
