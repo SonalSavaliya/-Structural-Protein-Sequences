@@ -1,6 +1,6 @@
 # Structural-Protein-Sequences
 
-My aim is to classify maximum protein types in the Structural Protein Sequences dataset using multiple machine learning classification algorithms. The dataset is from [Kaggle](https://www.kaggle.com/shahir/protein-data-set).
+My aim is to classify maximum protein types in the Structural Protein Sequences dataset using multiple machine learning and deep learning  classification algorithms. The dataset is from [Kaggle](https://www.kaggle.com/shahir/protein-data-set).
 
 ## Data Preprocessing
   - Format the classification names 
@@ -11,7 +11,7 @@ My aim is to classify maximum protein types in the Structural Protein Sequences 
   - Didn't consider classes that have less than 100 values per class
   - Added class variable as a target value. Assign a unique class number to each protein class
 
-## Data Analysis
+## Data Classification
 
 I compared a few models with cross-validation and hyperparameter tuning with Grid Search and Randomized Search. The following models were compared:
 - Random Forest
@@ -25,5 +25,4 @@ I compared a few models with cross-validation and hyperparameter tuning with Gri
 
 Random Forest is the best among all above models. KNN also works well whereas all other models give very poor performance. 
 
-#### Future Work
- - Will work on some deep learning models
+I also implemented **Character level 1d CNN** and **LSTM** using keras and TensorFlow in which CNN performs very well.
