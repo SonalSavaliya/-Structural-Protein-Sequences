@@ -21,6 +21,7 @@ I compared a few models with cross-validation and hyperparameter tuning with Gri
 - Multinomial Naive Bayes
 - Support Vector Machine (SVM)
 - K Nearest Neighbors (KNN)
+- Logistic Regression with OneVsRest
 
 
 Random Forest is the best among all above models. KNN also works well whereas all other models give very poor performance. 
